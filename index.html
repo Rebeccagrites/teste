@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" class="theme light classic">
+    <head>
+        <base href="/">
+        <meta charset="utf-8">
+        <title>Untitled App</title>
+        <meta name="app-name" content="export_website"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="_assets/ff55f1d5f0ce2c80.ltr.css" rel="stylesheet" integrity="sha512-+4G41PZfA+BNzLY7CvKH7rDOLJHDFpeWlRitD2a9uCjh/viNjQN+3l1cOL47ynrv3JRK1ilod3QeU4qxfyT2WQ==" crossorigin="anonymous">
+        <link href="_assets/static_font_4.ltr.css" rel="stylesheet">
+        <link href="_assets/7d4eddf888ca3878.runtime.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-GIAteEI3PRBI8dt0F0Voz+wDvvxb/DCn13SfsnMoyjSbDrVCLAeIzjcteZPLK5D08WZMs3AAEKWcxoWhFEcVRA==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+        <link href="_assets/fb765918bdc2d19b.s4le6a.vendor.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-3VjFGpvNTvgZ+9x5P3x48AnYqgt3wImtyr7Brrkc1siXteKHnrY01r2kGXXPZuXzLfLQStWpxRPP3VEuZGvbQg==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+        <link href="_assets/0fb5f701f46ae649.vendor.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-pBu6gIQavVkHQN6pJ71AmrR1b7gJaqLQTOQIdSIhRzWBPe3LMw4cYdHhHiLgWKrIMn5Bw7+KxODkVU2HdrCQBQ==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+        <link href="_assets/a0d72a6f160e1f66.strings.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-ObFRqhV6uAasHDeuk3rlCnduC5OuVbowpSl9SSkD8bKUcFMpqD83GVhbRthkeEVfAGTDo81fTrJXpiM2krglHQ==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+        <link href="_assets/7c07fdff3ebdc1ac.en.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-n+UsznWJlr5LzdSf/OTGlTaoDch37n+0U652HxS1hd2rODlyW7RSqhI4wHPaQrTMR3jbB+ocCPWcYOEJRNIxyg==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+        <link href="_assets/c063a525ae1812a6.js" rel="preload" as="script" crossorigin="anonymous" integrity="sha512-MWQOJS+am6LZ56+3eNQiXwgSjOgTtsp4CpiNQr1Yq/PjLIxrLEJbgxU+y1gg2/zwOy8khQUjGQagfdMTr6OCBg==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <meta property="og:title" content="Untitled App">
+        <meta property="og:type" content="website">
+        <link rel="shortcut icon" href="_assets/images/2d0b56e7e51cf11036ad8734bdb67e2d.png">
+        <link rel="icon" href="_assets/images/e53c4bd8da5e491d9ab09e7cf0daf874.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="_assets/images/725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
+        <script nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+            window['__canva_website_bootstrap__'] = JSON.parse('{"A":"ASSISTANT_THREAD_CODELET#ccd17fed-abe3-46cb-b2aa-ee7d1c7ca52e","B":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoia2lkLTE3NDAwODM2MjAyNzEifQ..5AGWSpC_4MW18vyR.yLiaXOKelB4WHg45yLZcljOGqoq92WcsgJKakguIgPcnSVXUzSFoiypxVbFVbBHXEiXyHJ3yEmJEy0P0_i0M9XI2lWQdKtSYkUU13RG6LZuMgS-ztNZBtVpiTyG11Gbg08sqgS_rrblh.iqdh_YDJy7bTiEpod3NtAQ"}');
+        </script>
+        <script nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+            document.addEventListener('contextmenu', (e) => {
+                const isMedia = ['img', 'image', 'video', 'svg', 'picture'].some(tagName => tagName.localeCompare(e.target.tagName, undefined, {
+                    sensitivity: 'base'
+                }) === 0, );
+                isMedia && e.preventDefault();
+            }
+            );
+        </script>
+        <script nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+            const lang = navigator.language ? navigator.language : 'en';
+            window.canva_installFooter = (container) => {
+                if (!(container instanceof HTMLDivElement)) {
+                    return;
+                }
+                fetch('_footer?lang=' + encodeURIComponent(lang)).then(response => {
+                    if (response.status !== 200) {
+                        return;
+                    }
+                    response.text().then(footerStr => {
+                        container.innerHTML = '';
+                        const div = document.createElement('div');
+                        div.innerHTML = footerStr;
+                        for (const child of [...div.children]) {
+                            if (child.tagName.toLowerCase() !== 'script') {
+                                container.append(child);
+                            }
+                        }
 
+                        ( () => {
+                            !function() {
+                                "use strict";
+                                const t = {
+                                    active: "active"
+                                }
+                                  , o = {
+                                    modalBackdrop: "modal_backdrop",
+                                    termsAndConditionsModal: "modal",
+                                    termsAndConditionsModalCloseButton: "form_close_initial",
+                                    reportButton: "form_report",
+                                    privacyPolicyModal: "privacy_policy_modal",
+                                    privacyPolicyModalCloseButton: "form_close_privacy_policy",
+                                    termsAndSupportFooterButton: "report_button",
+                                    privacyPolicyFooterButton: "privacy_policy_button"
+                                };
+                                !function() {
+                                    const c = document.getElementById(o.modalBackdrop);
+                                    null != c && (function(c) {
+                                        const e = document.getElementById(o.termsAndConditionsModal)
+                                          , n = document.getElementById(o.termsAndConditionsModalCloseButton)
+                                          , l = document.getElementById(o.reportButton)
+                                          , i = document.getElementById(o.termsAndSupportFooterButton);
+                                        if (null == e || null == n || null == l || null == i)
+                                            return;
+                                        l.onclick = () => {
+                                            const {origin: t, pathname: o} = window.location
+                                              , c = t + o
+                                              , e = l.dataset.reportUrl + encodeURIComponent(c);
+                                            window.open(e)
+                                        }
+                                        ;
+                                        const s = () => {
+                                            c.classList.remove(t.active),
+                                            e.classList.remove(t.active),
+                                            i.classList.remove(t.active),
+                                            i.focus(),
+                                            c.onclick = null
+                                        }
+                                        ;
+                                        n.onclick = s,
+                                        i.onclick = () => {
+                                            c.classList.add(t.active),
+                                            c.onclick = s,
+                                            e.classList.add(t.active),
+                                            i.classList.add(t.active)
+                                        }
+                                    }(c),
+                                    function(c) {
+                                        const e = document.getElementById(o.privacyPolicyModal)
+                                          , n = document.getElementById(o.privacyPolicyModalCloseButton)
+                                          , l = document.getElementById(o.privacyPolicyFooterButton);
+                                        if (null == e || null == n || null == l)
+                                            return;
+                                        const i = () => {
+                                            c.classList.remove(t.active),
+                                            e.classList.remove(t.active),
+                                            l.classList.remove(t.active),
+                                            l.focus(),
+                                            c.onclick = null
+                                        }
+                                        ;
+                                        n.onclick = i,
+                                        l.onclick = () => {
+                                            c.classList.add(t.active),
+                                            c.onclick = i,
+                                            e.classList.add(t.active),
+                                            l.classList.add(t.active)
+                                        }
+                                    }(c))
+                                }()
+                            }();
+                        }
+                        )();
+                    }
+                    );
+                }
+                );
+            }
+        </script>
+        <script nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+            window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
+        </script>
+        <script nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+            window.C_CAPTCHA_KEY = '6LdpNmIrAAAAAHQVezN3pBAfDjQQ2qUpo881f24o';
+        </script>
+    </head>
+    <body>
+        <script nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+            document.documentElement.classList.replace('adaptive', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        </script>
+        <div id="root"></div>
+        <script nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead">
+            (function() {
+                window['__canva_public_path__'] = '_assets\/';
+                window['bootstrap'] = JSON.parse('{"base":{"A?":"B","L":false,"N":false,"E":"d017ee8cf902a9d1fc80d20a31643ab49ef8ad88","j":"1195651","K":1777329470,"F":{"A?":"B"},"G":"CLIENT_FULL","I":"A","O":{"A?":"B"},"M":"/_online","U":[],"V":[],"a":{"K":"export_website","H":{}},"d":{"A":"wss://www.canva.com/_stream","B":{"F":"export_website"},"C":8388608},"b":{"A?":"H","C":{"a":"WEB"},"D":{"a":"WEB","c":"en"},"E":{},"P":[],"Q":[],"R":false,"S":false}},"page":{"A":{"B":{"A?":"B","A":1366.0,"B":768.0,"C":"D"},"C":{"A":1366.0,"B":768.0,"C":"D"},"Q":[],"R":[],"P":"en","D":"Untitled App","F":[],"G":{},"Y":{},"a":[],"b":[],"V":[],"W":[],"A":[{"A?":"i","a":"PB7rXHDZP8sVrspJ","R":false,"S":false,"U":false,"Q":{},"W":[],"X":[],"H":[],"L":{},"C":{"A":1366.0,"B":768.0,"C":"D"},"w":{"A":[{"C":"#ffffff","D":0.0,"F":false,"J":false,"G":false,"H":false}],"B":[]},"r":[],"E":[{"A?":"BC","A":0.0,"B":0.0,"D":1366.0,"C":768.0,"E":0.0,"F":0.0,"BD":[],"BE":[],"BA":[],"BB":[],"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"_":"LBJcFtZTT2t6sw2f","b":1366.0,"a":768.0,"z":{"A":{"A":"w:JR4G8hDDg","B":1},"B":{}},"y":{"A":{"A?":"S","A":{"A":"https://canva-hosted-embed.com/codelet/c7etm7cczvrkg27n","B":0,"C":"F"}},"i":{"A?":"A","A":"c7etm7cczvrkg27n"}}}],"I":[]}],"I":[]},"Z":{"A?":"E","M":"en","e":false,"g":[{"A?":"A","K":"PB7rXHDZP8sVrspJ","L":"","O":"Untitled App","e":{"A":true}}]},"I":{"A":[{"A":"YACgEZ1cb1Q","B":0,"C":"Arimo","D":[{"style":"BOLD_ITALICS","files":[{"url":"_assets/fonts/7fc2786f9023d4d812357cb787e9ad4b.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":237660},{"url":"_assets/fonts/1060345c54d396e76d73f1da7ee200bd.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":203232},{"url":"_assets/fonts/4de29305db46625343735e840e3d27aa.otf","format":"OTF","unicodeRanges":[],"sizeBytes":435028}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2109},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":33}}},{"style":"REGULAR","files":[{"url":"_assets/fonts/f8f199f09526f79e87644ed227e0f651.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194188},{"url":"_assets/fonts/daee28464eba92254cb149feea6599e3.otf","format":"OTF","unicodeRanges":[],"sizeBytes":436180},{"url":"_assets/fonts/4ff8a742aa834e35f10ead140b735c45.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234380}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2007},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":64}}},{"style":"BOLD","files":[{"url":"_assets/fonts/98c4d2c0223fc8474641c77f923528e9.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194064},{"url":"_assets/fonts/0bb563f2f60ffd4e62b64cb021c33776.otf","format":"OTF","unicodeRanges":[],"sizeBytes":438516},{"url":"_assets/fonts/9fd726aeae98b22824f0dc8947036e77.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234696}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2116},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":32}}},{"style":"ITALICS","files":[{"url":"_assets/fonts/79d14bb61301a10c73c6cb293c29b309.otf","format":"OTF","unicodeRanges":[],"sizeBytes":440740},{"url":"_assets/fonts/d257a7100844bc3f98c9021168b6249e.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":201132},{"url":"_assets/fonts/ac9b8a560f98d1757a4565a2419d33c3.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":240632}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2077},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-425,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":1}}}],"E":false}],"B":[],"C":[],"D":[],"E":[{"A":"https://canva-hosted-embed.com/codelet/c7etm7cczvrkg27n","Q":false,"B":"Canva","D":1777329470365,"E":"\x3ciframe src=\\"_assets/remote/embed/codelet/c7etm7cczvrkg27n/index.html\\" width=\\"1366\\" height=\\"768\\" frameborder=\\"0\\" sandbox=\\"allow-same-origin allow-scripts allow-popups allow-forms allow-popups-to-escape-sandbox\\" style=\\"width:100%;height:100%;border:0\\">\x3c/iframe>","F":1366,"G":768}],"F":[],"G":[]},"B":[{"A":"YACgEZ1cb1Q","B":0,"C":"Arimo","D":[{"style":"BOLD_ITALICS","files":[{"url":"_assets/fonts/7fc2786f9023d4d812357cb787e9ad4b.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":237660},{"url":"_assets/fonts/1060345c54d396e76d73f1da7ee200bd.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":203232},{"url":"_assets/fonts/4de29305db46625343735e840e3d27aa.otf","format":"OTF","unicodeRanges":[],"sizeBytes":435028}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2109},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":33}}},{"style":"REGULAR","files":[{"url":"_assets/fonts/f8f199f09526f79e87644ed227e0f651.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194188},{"url":"_assets/fonts/daee28464eba92254cb149feea6599e3.otf","format":"OTF","unicodeRanges":[],"sizeBytes":436180},{"url":"_assets/fonts/4ff8a742aa834e35f10ead140b735c45.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234380}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2007},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":64}}},{"style":"BOLD","files":[{"url":"_assets/fonts/98c4d2c0223fc8474641c77f923528e9.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194064},{"url":"_assets/fonts/0bb563f2f60ffd4e62b64cb021c33776.otf","format":"OTF","unicodeRanges":[],"sizeBytes":438516},{"url":"_assets/fonts/9fd726aeae98b22824f0dc8947036e77.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234696}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-771,"yMax":2116},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":32}}},{"style":"ITALICS","files":[{"url":"_assets/fonts/79d14bb61301a10c73c6cb293c29b309.otf","format":"OTF","unicodeRanges":[],"sizeBytes":440740},{"url":"_assets/fonts/d257a7100844bc3f98c9021168b6249e.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":201132},{"url":"_assets/fonts/ac9b8a560f98d1757a4565a2419d33c3.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":240632}],"subsettedFiles":[],"scriptSubsetFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2077},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-425,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":1}}}],"E":false}],"E":[],"F":[],"G":[],"H":[{"A":"https://canva-hosted-embed.com/codelet/c7etm7cczvrkg27n","Q":false,"B":"Canva","D":1777329470365,"E":"\x3ciframe src=\\"_assets/remote/embed/codelet/c7etm7cczvrkg27n/index.html\\" width=\\"1366\\" height=\\"768\\" frameborder=\\"0\\" sandbox=\\"allow-same-origin allow-scripts allow-popups allow-forms allow-popups-to-escape-sandbox\\" style=\\"width:100%;height:100%;border:0\\">\x3c/iframe>","F":1366,"G":768}],"S":[],"K":{},"Q":{"A":false,"B":true,"M":true},"R":false,"W":false,"U":true,"V":true,"X":false},"ui":{"N":false,"A":true,"B":"A","C":false,"D":false,"H":false,"K":"A","I":false,"J":false,"P":false}}');
+                window['flags'] = JSON.parse('{"4b24ba7f":true,"4073adf":true,"98a1d0d7":true,"4e33ebc4":true,"d60f02cd":true,"fbf8302e":true,"47458146":true,"aab7f2a3":4.0,"3cd5fd09":true,"978ce15d":150000.0,"8e8f10b3":true,"177e85b4":true,"a9a5cacb":true,"c524a276":true,"87cb5bb0":true,"2a6b6159":true,"3a384081":1.0,"b14a1b40":true,"be90f433":10.0,"bc98fe3b":60000.0,"52650edc":true,"91e25338":true,"8e3ee1f":true,"4ec300a7":true,"ab24af50":true,"ca366210":true,"6d44eea4":true,"a5f31b0e":true,"afcf2d9d":false,"61b62f35":true,"6e74853e":true,"e0e10a3f":true,"4b968126":true,"9f26448d":true}');
+                window['cmsg'] = window['cmsg'] || {
+                    locale: "en",
+                    strings: {}
+                };
+            }
+            )();
+        </script>
+        <script crossorigin="anonymous" src="_assets/7d4eddf888ca3878.runtime.js" defer integrity="sha512-GIAteEI3PRBI8dt0F0Voz+wDvvxb/DCn13SfsnMoyjSbDrVCLAeIzjcteZPLK5D08WZMs3AAEKWcxoWhFEcVRA==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead"></script>
+        <script crossorigin="anonymous" src="_assets/fb765918bdc2d19b.s4le6a.vendor.js" defer integrity="sha512-3VjFGpvNTvgZ+9x5P3x48AnYqgt3wImtyr7Brrkc1siXteKHnrY01r2kGXXPZuXzLfLQStWpxRPP3VEuZGvbQg==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead"></script>
+        <script crossorigin="anonymous" src="_assets/0fb5f701f46ae649.vendor.js" defer integrity="sha512-pBu6gIQavVkHQN6pJ71AmrR1b7gJaqLQTOQIdSIhRzWBPe3LMw4cYdHhHiLgWKrIMn5Bw7+KxODkVU2HdrCQBQ==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead"></script>
+        <script crossorigin="anonymous" src="_assets/a0d72a6f160e1f66.strings.js" integrity="sha512-ObFRqhV6uAasHDeuk3rlCnduC5OuVbowpSl9SSkD8bKUcFMpqD83GVhbRthkeEVfAGTDo81fTrJXpiM2krglHQ==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead"></script>
+        <script crossorigin="anonymous" src="_assets/7c07fdff3ebdc1ac.en.js" integrity="sha512-n+UsznWJlr5LzdSf/OTGlTaoDch37n+0U652HxS1hd2rODlyW7RSqhI4wHPaQrTMR3jbB+ocCPWcYOEJRNIxyg==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead"></script>
+        <script crossorigin="anonymous" src="_assets/c063a525ae1812a6.js" defer integrity="sha512-MWQOJS+am6LZ56+3eNQiXwgSjOgTtsp4CpiNQr1Yq/PjLIxrLEJbgxU+y1gg2/zwOy8khQUjGQagfdMTr6OCBg==" nonce="b7a9724a-3cd9-4d08-a714-33ab44111ead"></script>
+    </body>
+</html>
